@@ -26,3 +26,17 @@ alias ga.="git add ."
 alias gcm="git commit -m"
 alias gpod="git push origin dev"
 alias gpom="git push origin master"
+
+alias branch="git branch --show-current"
+alias branches='git branches'
+alias git_push='git push origin $(git branch --show-current)'
+alias git_pull='git pull origin $(git branch --show-current)'
+alias push='git_push'
+alias pull='git_pull'
+
+# React Native
+alias react-native="npx react-native"
+alias rn="npx react-native"
+alias ios="npx react-native run-ios"
+alias android="npx react-native run-android"
+alias ios_prod="npx react-native run-ios --configuration Release"
