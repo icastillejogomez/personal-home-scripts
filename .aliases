@@ -40,3 +40,6 @@ alias rn="npx react-native"
 alias ios="npx react-native run-ios"
 alias android="npx react-native run-android"
 alias ios_prod="npx react-native run-ios --configuration Release"
+alias android_prod='react-native run-android --variant=release'
+alias android_prod_assemble_release='./gradlew assemblerelease'
+alias android_prod_assemble_bundle_release='./gradlew bundleRelease'
