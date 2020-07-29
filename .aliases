@@ -5,8 +5,6 @@ else # OS X `ls`
   colorflag="-G"
 fi
 
-alias subl="/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text"
-
 # List all files colorized in long format
 alias ll='ls -lh'
 
@@ -15,6 +13,9 @@ alias la="ls -lha"
 
 # List only directories
 alias lsd='ls -l | grep "^d"'
+
+# List directory with du
+alias ldu='du -sh -- * | sort -h'
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
