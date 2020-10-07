@@ -44,3 +44,6 @@ alias ios_prod="npx react-native run-ios --configuration Release"
 alias android_prod='react-native run-android --variant=release'
 alias android_prod_assemble_release='./gradlew assemblerelease'
 alias android_prod_assemble_bundle_release='./gradlew bundleRelease'
+
+# Github
+alias jenkins='gh status checks'
